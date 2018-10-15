@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132D8FCE2173FA1800D8D641 /* FBullsAndCows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 132D8FCC2173FA1800D8D641 /* FBullsAndCows.cpp */; };
 		132E7DEA2173C1260021C4F7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 132E7DE92173C1260021C4F7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		132D8FCC2173FA1800D8D641 /* FBullsAndCows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBullsAndCows.cpp; sourceTree = "<group>"; };
+		132D8FCD2173FA1800D8D641 /* FBullsAndCows.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FBullsAndCows.hpp; sourceTree = "<group>"; };
 		132E7DE62173C1260021C4F7 /* BullsAndCows */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BullsAndCows; sourceTree = BUILT_PRODUCTS_DIR; };
 		132E7DE92173C1260021C4F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				132E7DE92173C1260021C4F7 /* main.cpp */,
+				132D8FCC2173FA1800D8D641 /* FBullsAndCows.cpp */,
+				132D8FCD2173FA1800D8D641 /* FBullsAndCows.hpp */,
 			);
 			path = BullsAndCows;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				132E7DEA2173C1260021C4F7 /* main.cpp in Sources */,
+				132D8FCE2173FA1800D8D641 /* FBullsAndCows.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +246,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BKT6PQFP66;
+				DEVELOPMENT_TEAM = G982WR9FX6;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,7 +256,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BKT6PQFP66;
+				DEVELOPMENT_TEAM = G982WR9FX6;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
